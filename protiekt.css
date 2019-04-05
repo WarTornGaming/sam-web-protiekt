@@ -1,0 +1,213 @@
+@charset "UTF-8"
+
+body
+{
+  font-family: "comic sans","Liberation Sans", calibri, arial, sans-serif;
+  margin: auto;
+  max-width: 860px;
+  font-size: 100%;
+}
+
+/* startpage */
+.startpage
+{
+  text-align: center;
+}
+
+/* selektorn * formaterar alla element på sidan */
+
+
+/*formatering för sidans body element = bakgrundsfärg*/
+body
+{
+  background-color: #FFF8DC;
+}
+
+/*formatering för textstycken*/
+p
+{
+  font-family: Calibri, Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/*formatering för rubrik h1*/
+h1
+{
+  font-family: Cambria, Calibri, Verdana, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+/*formatering för textlänkar när användaren för pekaren över texten*/
+a
+{
+  color: #FF0066;
+}
+
+a:hover
+{
+  color: #FF8C00;
+}
+
+/*formatering för behållare som innehåller alla sidans element*/
+.wrapper
+{
+  width:1010px;
+  min-height: 100%;
+  padding: 0px;
+  margin: auto;
+  background-color: #FFF8DC;
+  color: #000000;
+  border-left: 1px solid #4D94B8;
+  border-right: 1px solid #4D94B8;
+}
+
+/*formatering för klassen 'header' - sidhuvud*/
+.header
+{
+  width: 1000px;
+  padding: 20px 0 20px 0;
+  margin: auto;
+  background-color: #F6F9F);
+  color: #000000;
+}
+
+
+
+.mainmenu ul
+{
+  list-style: none;
+}
+
+.mainmenu a:hover
+{
+  color: #FFF8DC;
+}
+
+/*formatering för 2 kolumn layout*/
+.minirutor
+{
+  color: #000000;
+  margin-top: 10em;
+}
+
+/*formatering för vänster kolumn*/
+.minilenkar
+{
+  margin-top: -100px;
+  text-align: left;
+  float: left;
+  width: 400px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+/*formatering för höger kolumn*/
+.infotext
+{
+  float: right;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*formatering för sidfot*/
+.footer
+{
+  width: 1000px;
+  padding: 5px;
+  margin: 0px;
+  background-color: #E4ECEE;
+  color: #000000;
+  text-align: center;
+}
+
+/*formatering för sidfot och klassen push som trycker ner sidfoten på sidan*/
+.footer, .push
+{
+  height: 4em;
+  clear: both;
+}
+
+
+/* lösen */
+input
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit]
+{
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container
+{
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p
+{
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before
+{
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid
+{
+  color: red;
+}
+
+.invalid:before
+{
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
+
+.list
+{
+  text-align: left;
+}
+
+.list_2
+{
+  margin-left: 100px;
+}
+
+th
+{
+  text-align: left;
+}
